@@ -26,5 +26,5 @@ workflows:
           requires:
             - prueba-uno
           filters:
-          branches:
-            only: prod
+            branches:
+              only: prod
