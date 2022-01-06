@@ -23,6 +23,8 @@ workflows:
     jobs:
       - prueba-uno
       - production:
-         filters:
+          requires:
+            - prueba-uno
+          filters:
           branches:
-           only: prod
+            only: prod
