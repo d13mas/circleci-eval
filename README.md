@@ -1,3 +1,3 @@
 # General CircleCI Implementation 
 
-Testing  general commands on config.yml
+- Testing  general commands on config.yml
